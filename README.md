@@ -13,7 +13,7 @@ In TailwindCSS v4, this feature was removed, and everyone now has to handle the 
 
 This project is a plugin created for Tailwind CSS by [Zoltán Rózsa](https://github.com/rozsazoltan) under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html).
 
-Copyright (C) 2020–present [Zoltán Rózsa](https://github.com/rozsazoltan) & [Tsunamaji](https://github.com/tsunamaji)
+Copyright (C) 2025–present [Zoltán Rózsa](https://github.com/rozsazoltan) & [Tsunamaji](https://github.com/tsunamaji)
 
 This version is licensed under the AGPL-3.0.  
 For full license terms, see the [LICENSE](./LICENSE) file.

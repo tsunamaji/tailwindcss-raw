@@ -1,11 +1,11 @@
-import { Scanner } from '@tailwindcss/oxide'
 import { compile, optimize } from '@tailwindcss/node'
+import { Scanner } from '@tailwindcss/oxide'
 
 export const compileTw = async (content: string, css: string = '', minify: boolean = false) => {
   let scanner = new Scanner({ sources: [] })
   let candidates = scanner.scanFiles([{ content, extension: 'html' }])
 
-  if (! css.includes('@import')) {
+  if (!css.includes('@import')) {
     css = `@import "tailwindcss";${css}`
   }
 

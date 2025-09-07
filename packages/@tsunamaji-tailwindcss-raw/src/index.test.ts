@@ -1,6 +1,6 @@
+import dedent from 'dedent'
 import { describe, expect, it } from 'vitest'
 import { compileTw, minifyTw } from '.'
-import dedent from 'dedent'
 
 describe('compiling CSS from RAW HTML input', () => {
   it('can build styling', async () => {
@@ -9,7 +9,7 @@ describe('compiling CSS from RAW HTML input', () => {
         <div class="text-lg bg-red-500">Lorem Ipsum</div>
       `,
     )
-    
+
     expect(result).toContain(dedent`
       @layer utilities {
         .bg-red-500 {

@@ -22,9 +22,9 @@ For full license terms, see the [LICENSE](./LICENSE) file.
 
 This project is made possible by much love and the other open source software.
 
-|Name|License|
-|:---|:---|
-|[tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)|MIT License © [Tailwind Labs, Inc.](https://github.com/tailwindlabs)|
+| Name                                                                    | License                                                               |
+| :---------------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | MIT License © [Tailwind Labs, Inc.](https://github.com/tailwindlabs) |
 
 ## Thanks
 

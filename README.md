@@ -1,13 +1,8 @@
-# tsunamaji/tailwindcss-raw
+# tsunamaji/tailwindcss
 
-> [!TIP]
-> Although this package is built on Tailwind CSS, it only uses its engine and also ships it as a dependency.<br>Therefore, **installation of Tailwind CSS is generally not required specifically for the `tailwindcss-raw` package**.
+## Plugins
 
-## What is this plugin for?
-
-In TailwindCSS v3, the engine allowed passing RAW HTML, which could then be interpreted as source and used to extract the generated CSS as a result. This enabled the creation of a lot of automation.
-
-In TailwindCSS v4, this feature was removed, and everyone now has to handle the engine’s interpretation individually. The `tailwindcss-raw` package solves this problem and is distributed as open-source so that, by using it, others can save time: passing RAW HTML input to `tailwindcss-raw` generates the corresponding CSS output.
+* [`tailwindcss-raw`](./packages/@tsunamaji-tailwindcss-raw/README.md) ([read docs](https://rozsazoltan.vercel.app/docs/tsunamaji/tailwindcss-raw))
 
 ## License
 

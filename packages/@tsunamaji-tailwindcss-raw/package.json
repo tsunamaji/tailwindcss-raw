@@ -1,0 +1,33 @@
+{
+  "name": "@tsunamaji/tailwindcss-raw",
+  "version": "4.0.0",
+  "description": "Interpret the text, then return the appropriate generated CSS via the TailwindCSS engine.",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsunamaji/tailwindcss.git",
+    "directory": "packages/@tsunamaji-tailwindcss-raw"
+  },
+  "bugs": "https://github.com/tsunamaji/tailwindcss/issues",
+  "homepage": "https://rozsazoltan.vercel.app/docs/tsunamaji/tailwindcss-raw",
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "build": "tsup-node",
+    "dev": "pnpm run build -- --watch"
+  },
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
+  "dependencies": {
+    "@tailwindcss/node": "catalog:",
+    "@tailwindcss/oxide": "catalog:",
+    "tailwindcss": "catalog:"
+  }
+}
